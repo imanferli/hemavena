@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Allow AI / search crawlers for GEO visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Block training crawlers
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://hemavena.vercel.app/sitemap.xml
